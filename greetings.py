@@ -24,7 +24,7 @@ class Student:
 
 if __name__ == "__main__":
     registry = []
-    student = Student("SOfyan", "do santos Junior", "Sofyan@realmadrid.com")
+    student = Student("Cristiano", "Ronaldo", "cr7@realmadrid.com")
     student.register(registry)
     print(student.welcome())
     print(f"Registered as student #{student.student_id}")
